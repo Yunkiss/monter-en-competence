@@ -1,1 +1,2 @@
 Le script de redemarrage de apache est Systemctl start httpd.service
+les fichiers et repectoire de config sont /etc/httpd/sites-available, /etc/httpd/sites-enabled , /etc/httpd/conf/httpd.conf
