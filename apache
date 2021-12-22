@@ -6,5 +6,5 @@ le tuning d'apache vas nous permettre de faciliter l'acces de server par les cli
 
 les log de apache ce trouve dans /var/log
 les données de l'applie ce trouve dans /etc/httpd/
-ses données nous permettent de voir
+ses données nous permettent de voir les alerts erreur sur les log , sur les acces
 les données sont sous forme de fichier plat au format  texte tout dans un même repectoire dans different fichiers
