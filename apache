@@ -1,4 +1,4 @@
 Le script de redemarrage de apache est Systemctl start httpd.service
 les fichiers et repectoire de config sont /etc/httpd/conf/httpd.conf
-Qu'est-ce qu'il est possible de paramétrer dans l'application ?
+avec Apache ont peux faire un tuning (augmenter les nombres de connection simultané) parametrer pour faire aparaitre un page web ,...
 Qu'elles sont les paramètres importants pour réaliser le Tuning de l'application ?
