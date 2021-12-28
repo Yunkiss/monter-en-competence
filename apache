@@ -1,5 +1,5 @@
 Le script de redemarrage de apache est Systemctl start httpd.service
-les fichiers et repectoire de config sont /etc/httpd/conf/httpd.conf
+les fichiers et repectoire de config sont /etc/httpd/conf/httpd.conf | /usr/local/apache2/conf/httpd.conf
 avec Apache ont peux faire un tuning (augmenter les nombres de connection simultané) parametrer pour faire aparaitre un page web ,...
 les parametres important pour le tuning d'apache: tout d'abord il faut verifier si le système supporte les threads ? choisir un mode de configuration entre le mode de configue MPMworker MPMprefork, 
 le tuning d'apache vas nous permettre de faciliter l'acces de server par les clients pour ne pas qu'il est de bug de celui-ci
@@ -8,4 +8,4 @@ les log de apache ce trouve dans /var/log
 les données de l'applie ce trouve dans /etc/httpd/
 ses données nous permettent de voir les alerts erreur sur les log , sur les acces
 les données sont sous forme de fichier plat au format  texte tout dans un même repectoire dans different fichiers
-oui il y'a des donnée en cache dans apache 
+oui il y'a des donnée en cache dans apache. elle se trouve dans var/cache/ . l'impacte de la purge sur apache???
