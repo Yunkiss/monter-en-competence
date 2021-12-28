@@ -1,6 +1,7 @@
 Le script de redemarrage de apache est Systemctl start httpd.service
-les fichiers et repectoire de config sont /etc/httpd/conf/httpd.conf | /usr/local/apache2/conf/httpd.conf
-avec Apache ont peux faire un tuning (augmenter les nombres de connection simultané) parametrer pour faire aparaitre un page web ,...
+les fichiers et repectoire de config sont /etc/httpd/conf/httpd.conf | /usr/local/apache2/conf/httpd.conf | /etc/apache2
+c'est un serveur web HTTP aussi flexible que puissant,implémente les derniers protocoles, HTTP/1.1 (RFC2616) inclus, Il supporte des modules externes 100% configurables,ont peut personnalisé en écrivant soi-même ses propres
+modules en utilisant l'API Apache, Son code source est disponible et est accompagné d'une licence non restrictive
 les parametres important pour le tuning d'apache: tout d'abord il faut verifier si le système supporte les threads ? choisir un mode de configuration entre le mode de configue MPMworker MPMprefork, 
 le tuning d'apache vas nous permettre de faciliter l'acces de server par les clients pour ne pas qu'il est de bug de celui-ci
 
