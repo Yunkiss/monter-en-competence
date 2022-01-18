@@ -5,4 +5,7 @@ Dnas mariadb il est possible de
 les paramettres du tunig permettent Optimisation du matériel et du système MariaDB,Configuration de votre planificateur d'E/S de disque,Augmentez la limite de fichiers ouverts,Configuration de Swappiness sur Linux pour MariaDB
 
 les donner du server de BD se trouve dans /var/lib/mysql/
-ces donner dans le cas de mariadb vont permette de visualiser les Bases de donnée crée et pouvoir les utiliser pour la liaisons a des sites ou application
+ces donneés dans le cas de mariadb vont permette de visualiser les Bases de donnée crée et pouvoir les utiliser pour la liaisons a des sites ou application
+les fichiers de donnée sont stocker sous forme de .frm .ibd .opt repartie dans des dossier qui porte le noom de chaque tables cree
+il a un mecanisme de mise en cache appeller Query_cache il se trouve dans lorsqu'on tape la commande SELECT @@have_query_cache; dans l'interpreteur SQL les fichier  /usr/lib64/mariadb/plugin/query_cache_info.so
+dans notre cas de Mariadb ont peut parler de PhPMyAdmin
