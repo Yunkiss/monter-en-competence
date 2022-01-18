@@ -9,3 +9,7 @@ ces donneés dans le cas de mariadb vont permette de visualiser les Bases de don
 les fichiers de donnée sont stocker sous forme de .frm .ibd .opt repartie dans des dossier qui porte le noom de chaque tables cree
 il a un mecanisme de mise en cache appeller Query_cache il se trouve dans lorsqu'on tape la commande SELECT @@have_query_cache; dans l'interpreteur SQL les fichier  /usr/lib64/mariadb/plugin/query_cache_info.so
 dans notre cas de Mariadb ont peut parler de PhPMyAdmin
+ils nous permettent d'avoir un interface graphique de la BD permet de cree des tables inseret des données...
+
+Mariadb ecoute sur le port 3306 
+Oui ils ya des sessions utilisateur 
