@@ -1,2 +1,2 @@
-les script de redemarrage et d'arret sont : systemctl start traefik.service
-
+les script de redemarrage et d'arret sont : systemctl start traefik.service / systemctl  
+les fichiers de configuration de traefik sont dans: /etc/sysconfig/traefik
