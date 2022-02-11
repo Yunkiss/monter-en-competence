@@ -1,3 +1,3 @@
-les script de redemarrage et d'arret sont : systemctl start traefik.service / systemctl  
+les script de redemarrage et d'arret sont : Avec le Fichier en TOML "traefik -configFile=config.toml"
 les fichiers de configuration de traefik sont dans: /etc/traefik/traefik.yml
 /
